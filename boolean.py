@@ -1,6 +1,6 @@
 class Bool:
   """Checks whether or not the input is in fact, True or False; two possibilities of the boolean type.
-  Note that this will not work if the input is not in True or False as it will return an error message.
+  Note that this will not work if the input is not True or False and it will return an error message.
   
   Copyright LappySheep 2019"""
 
