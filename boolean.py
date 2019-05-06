@@ -16,43 +16,43 @@ class Bool:
             ind = self.options.index(self.choice)
             if ind:
                 return True
-        else:
-            return "This is literally impossible to reach"
+            else:
+                return "This is literally impossible to reach"
 
         elif not self.choice and self.choice in self.options:
             # make sure that the input is false
             ind = self.options.index(self.choice)
             if not ind:
                 return False
-        else:
-            return "This is literally impossible to reach"
+            else:
+                return "This is literally impossible to reach"
 
         elif self.choice and self.choice in self.options:
             ind = self.options.index(self.choice)
             if ind not ind:
                 return False
-        else:
-            return "This is literally impossible to reach"
+            else:
+                return "This is literally impossible to reach"
 
         elif not self.choice and self.choice in self.options:
             ind = self.options.index(self.choice)
             if ind:
                 return True
-        else:
-            return "This is literally impossible to reach"
+            else:
+                return "This is literally impossible to reach"
 
         else:
             return "This is not a valid input"
 
 
-def boolCheck(user_input):
+def bool_check(user_input):
     check = Bool(user_input)
     return check.checks
 
 
 def main():
     inp = input()
-    result = boolCheck(inp)
+    result = bool_check(inp)
     print(result)
 
 
