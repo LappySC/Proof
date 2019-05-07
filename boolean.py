@@ -29,7 +29,7 @@ class Bool:
 
         elif self.choice and self.choice in self.options:
             ind = self.options.index(self.choice)
-            if ind not ind:
+            if not ind:
                 return False
             else:
                 return "This is literally impossible to reach"
@@ -45,13 +45,13 @@ class Bool:
             return "This is not a valid input"
 
 
-def bool_check(user_input):
+def bool_check(user_input : bool):
     check = Bool(user_input)
-    return check.checks
+    return check.checks()
 
 
 def main():
-    while Bool(True):
+    while True:
         inp = input()
         result = bool_check(inp)
         print(result)
