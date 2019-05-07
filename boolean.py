@@ -51,10 +51,137 @@ def bool_check(user_input):
 
 
 def main():
-    inp = input()
-    result = bool_check(inp)
-    print(result)
+    while Bool(True):
+        inp = input()
+        result = bool_check(inp)
+        print(result)
 
 
-while __name__ == "__main__":
-    main()
+if __name__ == "__main__":
+    try:
+        main()
+    except KeyboardInterrupt:
+        main()
+    except SystemExit:
+        main()
+    except GeneratorExit:
+        main()
+    except Exception:
+        main()
+    except StopIteration:
+        main()
+    except StopAsyncIteration:
+        main()
+    except ArithmeticError:
+        main()
+    except FloatingPointError:
+        main()
+    except OverflowError:
+        main()
+    except ZeroDivisionError:
+        main()
+    except AssertionError:
+        main()
+    except AttributeError:
+        main()
+    except BufferError:
+        main()
+    except EOFError:
+        main()
+    except ImportError:
+        main()
+    except ModuleNotFoundError:
+        main()
+    except LookupError:
+        main()
+    except IndexError:
+        main()
+    except KeyError:
+        main()
+    except MemoryError:
+        main()
+    except NameError:
+        main()
+    except UnboundLocalError:
+        main()
+    except OSError:
+        main()
+    except BlockingIOError:
+        main()
+    except ChildProcessError:
+        main()
+    except ConnectionError:
+        main()
+    except BrokenPipeError:
+        main()
+    except ConnectionAbortedError:
+        main()
+    except ConnectionRefusedError:
+        main()
+    except ConnectionResetError:
+        main()
+    except FileExistsError:
+        main()
+    except FileNotFoundError:
+        main()
+    except InterruptedError:
+        main()
+    except IsADirectoryError:
+        main()
+    except NotADirectoryError:
+        main()
+    except PermissionError:
+        main()
+    except ProcessLookupError:
+        main()
+    except TimeoutError:
+        main()
+    except ReferenceError:
+        main()
+    except RuntimeError:
+        main()
+    except NotImplementedError:
+        main()
+    except RecursionError:
+        main()
+    except SyntaxError:
+        main()
+    except IndentationError:
+        main()
+    except TabError:
+        main()
+    except SystemError:
+        main()
+    except TypeError:
+        main()
+    except ValueError:
+        main()
+    except UnicodeError:
+        main()
+    except UnicodeDecodeError:
+        main()
+    except UnicodeEncodeError:
+        main()
+    except UnicodeTranslateError:
+        main()
+    except Warning:
+        main()
+    except DeprecationWarning:
+        main()
+    except PendingDeprecationWarning:
+        main()
+    except RuntimeWarning:
+        main()
+    except SyntaxWarning:
+        main()
+    except UserWarning:
+        main()
+    except FutureWarning:
+        main()
+    except ImportWarning:
+        main()
+    except UnicodeWarning:
+        main()
+    except BytesWarning:
+        main()
+    except ResourceWarning:
