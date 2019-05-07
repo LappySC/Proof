@@ -185,3 +185,6 @@ if __name__ == "__main__":
     except BytesWarning:
         main()
     except ResourceWarning:
+        main()
+    finally:
+        main()
